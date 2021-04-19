@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "Revolution",
+        "logo": "revolution.png",
+        "website": "http://revkites.com"
+    },
+    {
+        "id": "3",
+        "name": "WattyWorks",
+        "logo": "wattyworks.jpg",
+        "website": "http://watty.us"
+    },
+    {
+        "id": "4",
+        "name": "3 Wind",
+        "logo": "3wind.jpg",
+        "website": ""
+    },
+    {
+        "id": "5",
+        "name": "Kite Forge",
+        "logo": "kiteforge-onblack.png",
+        "website": "http://kiteforge.com"
+    }
+]

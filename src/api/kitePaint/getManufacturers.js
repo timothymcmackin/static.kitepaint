@@ -1,5 +1,5 @@
 import Manufacturer from "../../models/Manufacturer";
-import { error } from "../../theme/Alert";
+// import { error } from "../../theme/Alert";
 
 /**
  * Get all manufacturers.
@@ -16,21 +16,50 @@ export default async function getManufacturers(useCache = true) {
     }
   }
 
-  // Make the request
-  const response = await this.axiosInstance.get(`/manufacturers.php`, {
-    params: {
-      activated: 1
-    }
-  });
+  // // Make the request
+  // const response = await this.axiosInstance.get(`/manufacturers.php`, {
+  //   params: {
+  //     activated: 1
+  //   }
+  // });
 
-  // Handle invalid responses
-  if (!response.data) {
-    const message = response.data
-      ? response.data.message
-      : "The request for manufacturers was unsuccessful";
-    error(message);
-    return new Promise((resolve, reject) => reject(message));
-  }
+  // // Handle invalid responses
+  // if (!response.data) {
+  //   const message = response.data
+  //     ? response.data.message
+  //     : "The request for manufacturers was unsuccessful";
+  //   error(message);
+  //   return new Promise((resolve, reject) => reject(message));
+  // }
+
+  const response = {
+    data: [
+      {
+        id: "1",
+        name: "Revolution",
+        logo: "revolution.png",
+        website: "http://revkites.com"
+      },
+      {
+        id: "3",
+        name: "WattyWorks",
+        logo: "wattyworks.jpg",
+        website: "http://watty.us"
+      },
+      {
+        id: "4",
+        name: "3 Wind",
+        logo: "3wind.jpg",
+        website: ""
+      },
+      {
+        id: "5",
+        name: "Kite Forge",
+        logo: "kiteforge-onblack.png",
+        website: "http://kiteforge.com"
+      }
+    ]
+  };
 
   response.data = response.data.map(
     manufacturer => new Manufacturer(manufacturer)
