@@ -57,6 +57,12 @@ export default async function getManufacturers(useCache = true) {
         name: "Kite Forge",
         logo: "kiteforge-onblack.png",
         website: "http://kiteforge.com"
+      },
+      {
+        id: "6",
+        name: "Flying Smiles Kites",
+        logo: "kiteforge-onblack.png",
+        website: "http://flyingsmileskites.com"
       }
     ]
   };

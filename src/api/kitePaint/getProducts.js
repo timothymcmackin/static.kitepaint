@@ -28,8 +28,30 @@ export default async function getProducts(useCache = true) {
   //   return new Promise((resolve, reject) => reject(message));
   // }
 
+  const cr100pct =
+    '<?xml version="1.0" encoding="utf-8"?>\r\n<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\r\n<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\r\n\t viewBox="0 0 1741.8 587.4" style="enable-background:new 0 0 1741.8 587.4;" xml:space="preserve">\r\n\r\n<path class="leading-edge" stroke="#000000" d="M7.2,75.8c0,0,358.5-82.6,865.6-73.4c0,0,526.7-4.6,863.9,74.3l-20.7,22.4H28.6L7.2,75.8z"/>\r\n<path class="panel p1" data-id="p1" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" d="M24.4,94.6l355.3,388.9l113.9-81.8l-282-335.4C211.7,66.4,114.5,76.2,24.4,94.6z"/>\r\n<path class="panel p2" data-id="p2" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" d="M204.2,67.2l285,337.8L867,141.4V26.9C867,26.9,507.5,26.7,204.2,67.2z"/>\r\n<polygon class="panel p3" data-id="p3" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" points="376.8,480.3 491,398.6 572.1,495.4 472.4,585 "/>\r\n<polygon class="panel p4" data-id="p4" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" points="568.2,498.8 861.7,235.1 867,235.1 867,136.9 486.5,401.7 "/>\r\n<path class="panel p5" data-id="p5" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" d="M1720.2,94.6l-355,388.5L1249,401.8l283.3-335.4C1532.3,66.4,1619.4,77.7,1720.2,94.6z"/>\r\n<path class="panel p6" data-id="p6" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" d="M1539.6,67.4l-284.9,338.4L879,144.3V26.6C879,26.6,1126.8,19.1,1539.6,67.4z"/>\r\n<polygon class="panel p7" data-id="p7" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" points="1271.4,585.7 1367.8,480.3 1252.4,397.8 1169.3,493.4 "/>\r\n<polygon class="panel p8" data-id="p8" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" points="1176,499.5 1258,401.8 879,136.9 879,235.4 884,235.4 "/>\r\n<polygon class="panel p9" data-id="p9" ng-click="color_panel(\'all\', $event)" fill="#FFFFFF" stroke="#000000" points="861.7,235.1 884,235.4 881.9,26.5 862.7,27 "/>\r\n</svg>';
+
   const response = {
     data: [
+      {
+        id: "27",
+        name: "Compass Rose",
+        manufacturer: "6",
+        url: "",
+        colors:
+          '[{"name":"White","color":"#ffffff","$$hashKey":"018"},{"name":"Light Gray","color":"#cdcdcd","$$hashKey":"01E"},{"name":"Dark Gray","color":"#818181","$$hashKey":"01G"},{"name":"Black","color":"#000000","$$hashKey":"01I"},{"name":"Yellow","color":"#FFFF00","$$hashKey":"01K"},{"name":"Lime","color":"#C9FF00","$$hashKey":"01M"},{"name":"Mint","color":"#65CF8B","$$hashKey":"01O"},{"name":"Green","color":"#00933D","$$hashKey":"01Q"},{"name":"Dark Blue","color":"#1F3593","$$hashKey":"01S"},{"name":"Mid Blue","color":"#0072C0","$$hashKey":"01U"},{"name":"Light Blue","color":"#00AFF1","$$hashKey":"01W"},{"name":"Teal","color":"#00AFB2","$$hashKey":"01Y"},{"name":"Plum","color":"#590368","$$hashKey":"020"},{"name":"Purple","color":"#AC2293","$$hashKey":"022"},{"name":"Lavender","color":"#A266DF","$$hashKey":"024"},{"name":"Rubine Red","color":"#FF0268","$$hashKey":"026"},{"name":"Red","color":"#FF0000","$$hashKey":"028"},{"name":"Orange","color":"#FF9A00","$$hashKey":"02A"},{"name":"Gold","color":"#FFD000","$$hashKey":"02C"}]',
+        variations: [
+          {
+            id: "27",
+            name: "100%",
+            svg: cr100pct,
+            sortIndex: 0
+          }
+        ],
+        notes: '[""]',
+        status: "2",
+        embed: "watty.us,www.watty.us"
+      },
       {
         id: "3",
         name: "Breeze",
