@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/static.kitepaint/precache-manifest.290bd4b68d2f2c00d0542816c6488d28.js"
+  "/static.kitepaint/precache-manifest.7af78d7dbfde1e93bfd031946f8628a7.js"
 );
 
 workbox.clientsClaim();
