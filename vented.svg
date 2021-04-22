@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1963.2 651.3">
+<polygon class="leading-edge mesh" points="17,54.1 358.4,43.5 414.2,42.3 798,39.2 1203.9,42.1 1549,41 1604.8,42.2 1903.6,51.4 1946.2,52.8 1963.2,12.5 1572.9,2.1 1205.6,0 702.1,0.1 372.2,5 0,13.9 "/>
+<polygon class="leading-edge" stroke="#000000" points="17,54.1 59.6,52.8 60.3,36.5 358.3,26.9 358.4,43.5 414.2,42.3 415,24.2 676.1,22.1 910.2,21.8 1202.7,23 1548.2,22.9 1549,41 1604.8,42.2 1604.9,25.5 1902.9,35.2 1903.6,51.4 1946.2,52.8 1963.2,12.5 1581.9,3.4 1205.6,0 673.9,0.5 491.8,3.2 155.7,10.2 0,13.9 "/>
+<polygon class="panel p1" data-id="p1" data-autofill="p1" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="193.6,48.6 321.1,373.6 175.4,429.8 17,54.1 "/>
+<polygon class="panel p2" data-id="p2" data-autofill="p2" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="321.1,373.6 400.7,572.5 268.8,651.3 175.4,429.8 "/>
+<polygon class="panel p3" data-id="p3" data-autofill="p3" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="969.1,232.9 994.3,233.6 990,40.9 973.2,40.2 "/>
+<polygon class="panel p4" data-id="p4" data-autofill="p4" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="474.3,486.2 414.5,339.6 971.2,136.6 969.1,232.9 400.7,572.5 385.8,535.1 "/>
+<polygon class="panel p5" data-id="p5" data-autofill="p5" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="193.6,48.6 201.1,67.7 302.2,64.4 414.5,339.6 971.2,136.6 973.2,40.2 894.2,39.9 597.4,40.8
+\t414.2,42.3 358.4,43.5 "/>
+<polygon class="panel p6" data-id="p6" data-autofill="p6" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="1769.7,48.6 1642.4,373.7 1788.2,429.7 1946.3,53.9 "/>
+<polygon class="panel p7" data-id="p7" data-autofill="p7" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="1642.4,373.7 1563,572.6 1695,651.3 1788.2,429.7 "/>
+<polygon class="panel p8" data-id="p8" data-autofill="p8" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="1487.4,492.7 1549.8,340 992.1,137.2 994.3,233.6 1563,572.6 1575.6,541.2 "/>
+<polygon class="panel p9" data-id="p9" data-autofill="p9" ng-click="color_panel('all', $event)" fill="#FFFFFF" stroke="#000000" points="1769.7,48.6 1759.8,73.7 1658.5,70.5 1549.8,340 992.1,137.2 990,40.9 1069,40.5 1365.9,41.1
+\t1549,42.4 1604.8,43.6 "/>
+<polygon class="mesh" points="201.1,67.7 302.2,64.4 474.3,486.2 385.8,535.1 "/>
+<polygon class="mesh" points="1759.6,73.6 1658.5,70.5 1487.4,492.7 1576.1,541.4 "/>
+</svg>
