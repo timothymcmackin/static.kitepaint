@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fe80704a3ee9b697ffbd",
+    "revision": "c7450e7d8c29cdd9eb42",
     "url": "/static.kitepaint/static/css/main.07a7d827.chunk.css"
   },
   {
-    "revision": "fe80704a3ee9b697ffbd",
-    "url": "/static.kitepaint/static/js/main.fe80704a.chunk.js"
+    "revision": "c7450e7d8c29cdd9eb42",
+    "url": "/static.kitepaint/static/js/main.c7450e7d.chunk.js"
   },
   {
-    "revision": "adb6acec2b3f34e64de0",
+    "revision": "d959f4ba603c32c59018",
     "url": "/static.kitepaint/static/css/1.a9b94598.chunk.css"
   },
   {
-    "revision": "adb6acec2b3f34e64de0",
-    "url": "/static.kitepaint/static/js/1.adb6acec.chunk.js"
+    "revision": "d959f4ba603c32c59018",
+    "url": "/static.kitepaint/static/js/1.d959f4ba.chunk.js"
   },
   {
     "revision": "ba80984c3f3f42fdef9c",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static.kitepaint/static/media/quad-line.e47a29cb.svg"
   },
   {
-    "revision": "adae5e6b6b6463b204dfdc99e8f10d33",
+    "revision": "1e5944349aea2e25e0e66f42089f4ef3",
     "url": "/static.kitepaint/index.html"
   }
 ];
