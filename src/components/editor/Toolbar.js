@@ -273,7 +273,7 @@ class Toolbar extends React.Component {
                 <P
                   className="testing_save toolbar-item"
                   isLight
-                  onClick={dataWrapper.saveModal.actions.open}
+                  // onClick={dataWrapper.saveModal.actions.open}
                 >
                   <Icon icon="save" />
                   <span className="label">

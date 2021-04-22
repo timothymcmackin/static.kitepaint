@@ -34,34 +34,34 @@ export default async function getManufacturers(useCache = true) {
 
   const response = {
     data: [
-      {
-        id: "1",
-        name: "Revolution",
-        logo: "revolution.png",
-        website: "http://revkites.com"
-      },
-      {
-        id: "3",
-        name: "WattyWorks",
-        logo: "wattyworks.jpg",
-        website: "http://watty.us"
-      },
-      {
-        id: "4",
-        name: "3 Wind",
-        logo: "3wind.jpg",
-        website: ""
-      },
-      {
-        id: "5",
-        name: "Kite Forge",
-        logo: "kiteforge-onblack.png",
-        website: "http://kiteforge.com"
-      },
+      // {
+      //   id: "1",
+      //   name: "Revolution",
+      //   logo: "revolution.png",
+      //   website: "http://revkites.com"
+      // },
+      // {
+      //   id: "3",
+      //   name: "WattyWorks",
+      //   logo: "wattyworks.jpg",
+      //   website: "http://watty.us"
+      // },
+      // {
+      //   id: "4",
+      //   name: "3 Wind",
+      //   logo: "3wind.jpg",
+      //   website: ""
+      // },
+      // {
+      //   id: "5",
+      //   name: "Kite Forge",
+      //   logo: "kiteforge-onblack.png",
+      //   website: "http://kiteforge.com"
+      // },
       {
         id: "6",
         name: "Flying Smiles Kites",
-        logo: "kiteforge-onblack.png",
+        logo: "compassRoseRough.png",
         website: "http://flyingsmileskites.com"
       }
     ]
