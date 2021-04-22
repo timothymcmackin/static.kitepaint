@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fe80704a3ee9b697ffbd",
-    "url": "/static.kitepaint/static/css/main.07a7d827.chunk.css"
+    "revision": "f810a25c55fb26572f08",
+    "url": "/static.kitepaint/static/css/main.9bf20fd6.chunk.css"
   },
   {
-    "revision": "fe80704a3ee9b697ffbd",
-    "url": "/static.kitepaint/static/js/main.fe80704a.chunk.js"
+    "revision": "f810a25c55fb26572f08",
+    "url": "/static.kitepaint/static/js/main.f810a25c.chunk.js"
   },
   {
-    "revision": "adb6acec2b3f34e64de0",
-    "url": "/static.kitepaint/static/css/1.a9b94598.chunk.css"
+    "revision": "2fd703e18caa0d9aff6e",
+    "url": "/static.kitepaint/static/css/1.42ebf32a.chunk.css"
   },
   {
-    "revision": "adb6acec2b3f34e64de0",
-    "url": "/static.kitepaint/static/js/1.adb6acec.chunk.js"
+    "revision": "2fd703e18caa0d9aff6e",
+    "url": "/static.kitepaint/static/js/1.2fd703e1.chunk.js"
   },
   {
     "revision": "ba80984c3f3f42fdef9c",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static.kitepaint/static/media/quad-line.e47a29cb.svg"
   },
   {
-    "revision": "adae5e6b6b6463b204dfdc99e8f10d33",
+    "revision": "df18ee762f2b738eac3350d5a3e80bb1",
     "url": "/static.kitepaint/index.html"
   }
 ];
