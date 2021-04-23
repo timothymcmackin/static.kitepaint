@@ -1,7 +1,7 @@
 {
   "main.css": "/static.kitepaint/static/css/main.07a7d827.chunk.css",
-  "main.js": "/static.kitepaint/static/js/main.854a3096.chunk.js",
-  "main.js.map": "/static.kitepaint/static/js/main.854a3096.chunk.js.map",
+  "main.js": "/static.kitepaint/static/js/main.59d34aae.chunk.js",
+  "main.js.map": "/static.kitepaint/static/js/main.59d34aae.chunk.js.map",
   "static/css/1.a9b94598.chunk.css": "/static.kitepaint/static/css/1.a9b94598.chunk.css",
   "static/js/1.adb6acec.chunk.js": "/static.kitepaint/static/js/1.adb6acec.chunk.js",
   "static/js/1.adb6acec.chunk.js.map": "/static.kitepaint/static/js/1.adb6acec.chunk.js.map",
@@ -10,9 +10,9 @@
   "static/media/bg-rev.jpg": "/static.kitepaint/static/media/bg-rev.f5e486e3.jpg",
   "static/media/dual-line.ba70883a.svg": "/static.kitepaint/static/media/dual-line.ba70883a.svg",
   "static/media/quad-line.e47a29cb.svg": "/static.kitepaint/static/media/quad-line.e47a29cb.svg",
-  "static/css/main.07a7d827.chunk.css.map": "/static.kitepaint/static/css/main.07a7d827.chunk.css.map",
   "static/css/1.a9b94598.chunk.css.map": "/static.kitepaint/static/css/1.a9b94598.chunk.css.map",
+  "static/css/main.07a7d827.chunk.css.map": "/static.kitepaint/static/css/main.07a7d827.chunk.css.map",
   "index.html": "/static.kitepaint/index.html",
-  "precache-manifest.aba23ffc923a5aa8a43651b9d3236cad.js": "/static.kitepaint/precache-manifest.aba23ffc923a5aa8a43651b9d3236cad.js",
+  "precache-manifest.781aaf22fd9cd1659293bb15af5bb3ad.js": "/static.kitepaint/precache-manifest.781aaf22fd9cd1659293bb15af5bb3ad.js",
   "service-worker.js": "/static.kitepaint/service-worker.js"
 }
