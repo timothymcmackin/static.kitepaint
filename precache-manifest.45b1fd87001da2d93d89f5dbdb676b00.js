@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "59d34aaefed2df6e4b44",
+    "revision": "23b90deda6bded540c7b",
     "url": "/static.kitepaint/static/css/main.07a7d827.chunk.css"
   },
   {
-    "revision": "59d34aaefed2df6e4b44",
-    "url": "/static.kitepaint/static/js/main.59d34aae.chunk.js"
+    "revision": "23b90deda6bded540c7b",
+    "url": "/static.kitepaint/static/js/main.23b90ded.chunk.js"
   },
   {
     "revision": "adb6acec2b3f34e64de0",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static.kitepaint/static/media/quad-line.e47a29cb.svg"
   },
   {
-    "revision": "49ce215e1ee3363eb57e9d04f9a3cf64",
+    "revision": "68caecd467e8e4315ac7c428d9c46d73",
     "url": "/static.kitepaint/index.html"
   }
 ];
