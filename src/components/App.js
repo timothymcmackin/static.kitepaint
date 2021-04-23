@@ -27,7 +27,7 @@ import View from "./view";
 const App = ({ _isEmbedded }) => (
   <React.Fragment>
     <EmbeddedCss />
-    {!_isEmbedded && <Header />}
+    {/* {!_isEmbedded && <Header />} */}
     <LegacyRedirect />
     <Switch>
       <RestrictedRoute exact path="/" component={Home} />

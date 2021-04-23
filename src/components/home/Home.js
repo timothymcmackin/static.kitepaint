@@ -14,7 +14,7 @@ import RecentDesigns from "../RecentDesigns";
 const Home = () => (
   <React.Fragment>
     <CTABanner />
-    <UserContainer>
+    {/* <UserContainer>
       {userData =>
         !userData.props.isLoggedIn && (
           <AccountBanner isRecognizedUser={userData.props.isRecognizedUser}>
@@ -26,8 +26,8 @@ const Home = () => (
           </AccountBanner>
         )
       }
-    </UserContainer>
-    <RecentDesignsContainer>
+    </UserContainer> */}
+    {/* <RecentDesignsContainer>
       {designsData =>
         designsData.props.isLoading ? (
           <Spacer top="xl" bottom="xl">
@@ -51,7 +51,7 @@ const Home = () => (
           </React.Fragment>
         )
       }
-    </RecentDesignsContainer>
+    </RecentDesignsContainer> */}
   </React.Fragment>
 );
 

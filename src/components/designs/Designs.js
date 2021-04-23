@@ -19,7 +19,7 @@ const Designs = () => (
                 <Loading />
               </Spacer>
             )}
-            <RecentDesigns
+            {/* <RecentDesigns
               designs={designs.props.designs}
               products={designs.props.products}
               manufacturers={designs.props.manufacturers}
@@ -35,7 +35,7 @@ const Designs = () => (
                   </Button>
                 )
               }
-            />
+            /> */}
           </React.Fragment>
         )}
       </DesignsContainer>
