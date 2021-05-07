@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { ThemeProvider } from "styled-components";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import Theme from "../theme";
 import { CHECK_LOGIN } from "../redux/actions";
@@ -29,11 +29,11 @@ export class AppContainer extends React.Component {
       return <PageLoader />;
     }
     return (
-      <BrowserRouter>
+      <HashRouter>
         <ThemeProvider theme={Theme}>
           <App />
         </ThemeProvider>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
@@ -46,7 +46,4 @@ const mapDispatchToProps = {
   onCheckLogin: CHECK_LOGIN
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(AppContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(AppContainer);
